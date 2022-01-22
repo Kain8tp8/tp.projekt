@@ -7,7 +7,27 @@ body{
     justify-content: center;
     align-items: center;
 }
-h1{
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    h1{
     color: rgb(29, 19, 87);
     font-family: 'Montserrat';
+    animation: anim 3s ease-in-out infinite 0s;
+}
+}
+
+
+@keyframes anim{
+    0%{
+        color: rgb(17, 42, 182);
+    }
+    50%{
+        color: rgb(154, 54, 172);
+    }
+    100%{
+       color: rgb(68, 167, 51);
+    }
+
 }

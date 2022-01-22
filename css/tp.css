@@ -13,7 +13,39 @@ body {
           align-items: center;
 }
 
-h1 {
+div {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+div h1 {
   color: #1d1357;
   font-family: 'Montserrat';
+  -webkit-animation: anim 3s ease-in-out infinite 0s;
+          animation: anim 3s ease-in-out infinite 0s;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    color: #112ab6;
+  }
+  50% {
+    color: #9a36ac;
+  }
+  100% {
+    color: #44a733;
+  }
+}
+
+@keyframes anim {
+  0% {
+    color: #112ab6;
+  }
+  50% {
+    color: #9a36ac;
+  }
+  100% {
+    color: #44a733;
+  }
 }
